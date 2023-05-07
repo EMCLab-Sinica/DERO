@@ -1,5 +1,5 @@
 # Deep Reorganization: Retaining Residuals for TinyML
-
+This training script is adapts from https://github.com/pytorch/vision/tree/main/references/classification
 ## Requriements
 - Python>=3.7.0 
 
