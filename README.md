@@ -1,5 +1,8 @@
 # Deep Reorganization: Retaining Residuals for TinyML
-This training script is adapts from https://github.com/pytorch/vision/tree/main/references/classification
+This repository contains the training scripts for the evaluation for DERO.
+
+All models have been trained on 8x RTX2080Ti GPUs.
+
 ## Requriements
 - Python>=3.7.0 
 
@@ -27,4 +30,10 @@ torchrun --nproc_per_node=8 train.py --model resnet34dero --data-path <PATH_TO_D
                                              resnet50dero
                                              mcunet_dero_v4
                                              densenet121_dero
+```
+
+## Evaluate
+Testing for models:
+```bash
+python train.py --model <MODEL> --data-path <PATH_TO_DATASET> -b 64 --test-only --weights <PATH_TO_MODEL>
 ```
