@@ -1,7 +1,10 @@
 # Deep Reorganization: Retaining Residuals for TinyML
-This repository contains the training scripts for the evaluation for DERO.
+<img src="./pics/overview-.png" alt= “” height="128">
+DERO is an approach that optimizes models at the graph level by reorganizing residual connections. This approach maintains the same level of inference peak memory requirement as a plain-style model, while preserving the accuracy and training efficiency of the original model with residuals.</br></br>
 
-All models have been trained on 8x RTX2080Ti GPUs.
+
+This repository contains the training scripts for necessary DERO evaluation. To obtain reproducible results, kindly follow the steps mentioned below.</br>
+All models were trained using eight RTX2080Ti GPUs.</br>
 
 ## Requriements
 - Python>=3.7.0 
@@ -34,6 +37,7 @@ torchrun --nproc_per_node=8 train.py --model resnet34dero --data-path <PATH_TO_D
 
 ## Evaluate
 Testing for models:
+
 ```bash
-python train.py --model <MODEL> --data-path <PATH_TO_DATASET> -b 64 --test-only --weights <PATH_TO_MODEL>
+python train.py --model <MODEL_NAME> --data-path <PATH_TO_DATASET> -b 64 --test-only --weights <PATH_TO_MODEL>
 ```
