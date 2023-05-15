@@ -41,3 +41,11 @@ Testing for models:
 ```bash
 python train.py --model <MODEL_NAME> --data-path <PATH_TO_DATASET> -b 64 --test-only --weights <PATH_TO_MODEL>
 ```
+
+## Pretrsained models
+|Models|Links|
+|---|---|
+|ResNet34(DERO)|[Links](https://drive.google.com/open?id=1QFQEfV3oOZKv7LIUItKISRwKhdxU0DIp)|
+|ResNet50(DERO)|[Links](https://drive.google.com/open?id=1Q8H2GWwQa1zyiNobmU5dNXZyboR__Tb_)|
+|MCUNet(DERO)|[Links](https://drive.google.com/open?id=1QAA7f98c6VtZMlpoxrURU3RCdiKFpTVX)|
+|DenseNet(DERO)|[Links](https://drive.google.com/open?id=1Q6nNysXCiQlWRaYV1V17jYHvPY2fqwTR)|
