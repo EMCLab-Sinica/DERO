@@ -4,7 +4,7 @@ DERO is an approach that optimizes models at the graph level by reorganizing res
 
 
 This repository contains the training scripts for necessary DERO evaluation. To obtain reproducible results, kindly follow the steps mentioned below.</br>
-All models were trained using eight RTX2080Ti GPUs.</br>
+All models were trained using eight GTX2080Ti GPUs.</br>
 
 ## Requriements
 - Python>=3.7.0 
