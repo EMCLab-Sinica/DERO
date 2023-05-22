@@ -1,5 +1,5 @@
 # Deep Reorganization: Retaining Residuals for TinyML
-<img src="./pics/overview-.png" alt= “” height="128">
+<img src="./pics/overview-.png" alt= “” height="128"></br>
 DERO is an approach that optimizes models at the graph level by reorganizing residual connections. This approach maintains the same level of inference peak memory requirement as a plain-style model, while preserving the accuracy and training efficiency of the original model with residuals.</br></br>
 
 
@@ -42,10 +42,11 @@ Testing for models:
 python train.py --model <MODEL_NAME> --data-path <PATH_TO_DATASET> -b 64 --test-only --weights <PATH_TO_MODEL>
 ```
 
-## Pretrsained models
-|Models|Links|
-|---|---|
-|ResNet34(DERO)|[Links](https://drive.google.com/open?id=1QFQEfV3oOZKv7LIUItKISRwKhdxU0DIp)|
-|ResNet50(DERO)|[Links](https://drive.google.com/open?id=1Q8H2GWwQa1zyiNobmU5dNXZyboR__Tb_)|
-|MCUNet(DERO)|[Links](https://drive.google.com/open?id=1QAA7f98c6VtZMlpoxrURU3RCdiKFpTVX)|
-|DenseNet(DERO)|[Links](https://drive.google.com/open?id=1Q6nNysXCiQlWRaYV1V17jYHvPY2fqwTR)|
+## Pretrained Checkpoints
+|Models|Accuracy|Parameters (M)|Training time|Latency (S)|Links|
+|---|---|---|---|---|---|
+|ResNet34(DERO)|72.3%|20.64|24:23:29|167.0|[Links](https://drive.google.com/open?id=1QFQEfV3oOZKv7LIUItKISRwKhdxU0DIp)|
+|ResNet50(DERO)|75.5%|21.78|25:53:13|169.9|[Links](https://drive.google.com/open?id=1Q8H2GWwQa1zyiNobmU5dNXZyboR__Tb_)|
+|MCUNet(DERO)|55.6%|0.72|17:29:27|6.4|[Links](https://drive.google.com/open?id=1QAA7f98c6VtZMlpoxrURU3RCdiKFpTVX)|
+|DenseNet(DERO)|71.5%|7.58|32:52:39|73.3|[Links](https://drive.google.com/open?id=1Q6nNysXCiQlWRaYV1V17jYHvPY2fqwTR)|
+|YOLOV5n(DERO)|25.8% (mAP)|1.73|43:22:35|52.1|[Links](https://drive.google.com/open?id=1Q6nNysXCiQlWRaYV1V17jYHvPY2fqwTR)|
