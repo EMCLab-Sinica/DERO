@@ -42,6 +42,13 @@ Testing for models:
 python train.py --model <MODEL_NAME> --data-path <PATH_TO_DATASET> -b 64 --test-only --weights <PATH_TO_MODEL>
 ```
 
+## Comparision
+Ground Truth
+|Methods|Ground truth|Predicted result|
+|---|---|---|
+|Plain|<img src="./pics/Validation.jpeg" alt= “” height="256">|<img src="./pics/plain.jpeg" alt= “” height="256">|
+|DERO|<img src="./pics/Validation.jpeg" alt= “” height="256">|<img src="./pics/dero.jpeg" alt= “” height="256">|
+
 ## Pretrained Checkpoints
 |Models|Accuracy|Parameters (M)|Training time|Latency (S)|Links|
 |---|---|---|---|---|---|
