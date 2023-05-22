@@ -43,11 +43,10 @@ python train.py --model <MODEL_NAME> --data-path <PATH_TO_DATASET> -b 64 --test-
 ```
 
 ## Comparision
-Ground Truth
-|Methods|Ground truth|Predicted result|
+||YOLOV5 (Plain)|YOLOV5 (DERO)|
 |---|---|---|
-|Plain|<img src="./pics/Validation.jpeg" alt= “” height="256">|<img src="./pics/plain.jpeg" alt= “” height="256">|
-|DERO|<img src="./pics/Validation.jpeg" alt= “” height="256">|<img src="./pics/dero.jpeg" alt= “” height="256">|
+|Ground truth|<img src="./pics/Validation.jpeg" alt= “” height="256">|<img src="./pics/Validation.jpeg" alt= “” height="256">|
+|Predicted result|<img src="./pics/plain.jpeg" alt= “” height="256">|<img src="./pics/dero.jpeg" alt= “” height="256">|
 
 ## Pretrained Checkpoints
 |Models|Accuracy|Parameters (M)|Training time|Latency (S)|Links|
