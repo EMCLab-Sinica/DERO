@@ -51,8 +51,8 @@ python train.py --model <MODEL_NAME> --data-path <PATH_TO_DATASET> -b 64 --test-
 ## Pretrained Checkpoints
 |Models|Accuracy|Parameters (M)|Training time|Latency (S)|Peak memory (KB)|Links|
 |---|---|---|---|---|---|---|
-|ResNet34(DERO)|72.32%|20.64|24:23:29|167.0|294.0|[Link](https://drive.google.com/open?id=1QFQEfV3oOZKv7LIUItKISRwKhdxU0DIp)|
-|ResNet50(DERO)|75.56%|21.78|25:53:13|169.9|294.0|[Link](https://drive.google.com/open?id=1Q8H2GWwQa1zyiNobmU5dNXZyboR__Tb_)|
-|MCUNet(DERO)|55.59%|0.72|17:29:27|6.4|302.5|[Link](https://drive.google.com/open?id=1QAA7f98c6VtZMlpoxrURU3RCdiKFpTVX)|
-|DenseNet(DERO)|71.55%|7.58|32:52:39|73.3|266.4|[Link](https://drive.google.com/open?id=1Q6nNysXCiQlWRaYV1V17jYHvPY2fqwTR)|
-|YOLOV5n(DERO)|25.90% (mAP)|1.73|43:22:35|52.1|253.5|[Link](https://drive.google.com/open?id=1Q6nNysXCiQlWRaYV1V17jYHvPY2fqwTR)|
+|ResNet34(DERO)|72.32%|20.64|24:23:29|167.0|294.0|[Link]()|
+|ResNet50(DERO)|75.56%|21.78|25:53:13|169.9|294.0|[Link]()|
+|MCUNet(DERO)|55.59%|0.72|17:29:27|6.4|302.5|[Link]()|
+|DenseNet(DERO)|71.55%|7.58|32:52:39|73.3|266.4|[Link]()|
+|YOLOV5n(DERO)|25.90% (mAP)|1.73|43:22:35|52.1|253.5|[Link]()|
