@@ -1,4 +1,4 @@
-# Deep Reorganization (DERO): Retaining Residuals for TinyML
+# Deep Reorganization (DERO): Retaining Residuals in TinyML
 <img src="./pics/overview-.png" alt= “” height="128"></br>
 
 DERO is a simple yet systematic approach that exploits the characteristics and memory allocation behavior of operations to reorganize the residual connections in a network model. DERO maintains the same level of inference peak memory requirement as a plain-style model, while preserving the accuracy and training efficiency of the original model with residuals.</br></br>
